@@ -1,7 +1,7 @@
 import axios, { type AxiosInstance } from 'axios'
 import { type RequestObj } from './Types'
 const AXIOS = (auth = false): AxiosInstance => {
-  const AxiosInstance = axios.create({
+  const AxiosInstance = axios?.create({
     baseURL: process.env.REACT_APP_BASE_URL,
     timeout: 2000,
     headers: {
@@ -13,12 +13,12 @@ const AXIOS = (auth = false): AxiosInstance => {
   })
 
   // Add a response interceptor
-  AxiosInstance.interceptors.request.use((request) => {
+  AxiosInstance?.interceptors?.request?.use((request) => {
     return request
   })
 
   // Add a response interceptor
-  AxiosInstance.interceptors.response.use(
+  AxiosInstance?.interceptors?.response?.use(
     (response) => {
       return response.data
     },
