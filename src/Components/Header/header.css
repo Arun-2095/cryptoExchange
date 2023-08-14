@@ -1,0 +1,4 @@
+.search-input, .search-input:focus{ 
+    background-color: var(--gray) !important;
+    color: white;
+}
