@@ -1,6 +1,8 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
+import 'bootstrap/dist/css/bootstrap.min.css'
 import './index.css'
+import './assets/css/variable.css'
 import reportWebVitals from './reportWebVitals'
 import { AppRoutes } from './Router'
 import {
