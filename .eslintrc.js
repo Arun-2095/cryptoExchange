@@ -33,5 +33,5 @@ module.exports = {
   rules: {
     indent: ["error", 2],
   },
-  ignorePatterns: ["reportWebVitals.ts", ".eslintrc.js", "craco.config.js"],
+  ignorePatterns: ["reportWebVitals.ts", ".eslintrc.js", "craco.config.js" , "babel.config.js"],
 };
