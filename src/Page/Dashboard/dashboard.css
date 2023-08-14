@@ -1,0 +1,36 @@
+@import url("../../assets/css/variable.css");
+
+.thead-cell, .tbody-cell{
+    color : var(--gray) !important;
+    font-size: 12px;
+    text-align: right;
+    height: 50px;
+    align-self: center;
+    vertical-align:middle;
+}
+
+.tbody-cell{
+    color: white !important;
+}
+
+.tbody-cell img {
+    width: 25px;
+    height: 25px;
+}
+
+
+.thead-cell:last-child{
+    color : white !important; 
+    font-size: 12px;
+    padding-right: 2rem;
+}
+
+.symbol-text {
+    width: 80px;
+    display: inline-block;
+}
+
+.low-value {
+    color : var(--gray) !important;
+    
+}

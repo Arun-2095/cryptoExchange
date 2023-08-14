@@ -32,6 +32,8 @@ module.exports = {
   plugins: ["react"],
   rules: {
     indent: ["error", 2],
+    "@typescript-eslint/explicit-function-return-type": ["off"]
+
   },
   ignorePatterns: ["reportWebVitals.ts", ".eslintrc.js", "craco.config.js" , "babel.config.js"],
 };
